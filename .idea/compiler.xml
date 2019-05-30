@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubboImprove_api_provider" />
+        <module name="dubboImprove_interface" />
+        <module name="dubboImprove_xml_consumer" />
+        <module name="dubboImprove_xml_provider" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubboImprove_api" options="" />
+      <module name="dubboImprove_api_provider" options="-parameters" />
+      <module name="dubboImprove_interface" options="-parameters" />
+      <module name="dubboImprove_xml_consumer" options="-parameters" />
+      <module name="dubboImprove_xml_provider" options="-parameters" />
+    </option>
+  </component>
+  <component name="TypeScriptCompiler">
+    <option name="recompileOnChanges" value="true" />
+    <option name="typeScriptCompilerParams" value="--sourceMap true" />
+    <option name="useConfig" value="true" />
+  </component>
+</project>
